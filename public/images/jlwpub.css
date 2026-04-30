@@ -1,0 +1,338 @@
+/*EM 'reset baseline' style rules*/
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1em;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/*remember to define focus styles*/
+/*:focus { outline: 0; }*/
+
+body {
+	line-height: 1;
+}
+
+ol, ul { list-style: none; }
+
+/*tables still need 'cellspacing="0"' in the markup*/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+
+a:link {color: #900; text-decoration: none;}
+a:hover {text-decoration: underline;}
+q:before, q:after,
+blockquote:before, blockquote:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+img { border: none; }
+
+acronym, abbr.initialism, dfn { cursor: help; }
+abbr { speak: spell-out; }
+acronym, abbr.truncation, dfn { speak: normal; }
+cite{font-style: italic;}
+strong{font-style: bold;}
+em {font-style: italic;}
+
+.hide {
+	position: absolute;
+	top: -100em;
+	left: -5000em;
+	height: 0;
+}
+
+.hide a, .hide a:hover, .hide a:visited {
+	position: absolute;
+	top: 0;
+	left: -5000px;
+}
+
+.hide a:focus {
+	position: static;
+	width: auto;
+	height: auto;
+}
+
+
+html {
+	color: #000;
+	background: #fff;
+}
+
+body {
+	width: 850px;
+	margin: 30px auto 100px;
+	font: normal 82%/1.4 Georgia, serif;
+	color: #000;
+	border: 1px solid #c90;
+	min-height: 800px;
+	background-color: #FFF;
+	background-image: url(/images/corner_grad1.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+body.grolier #banner {
+	width: 100%;
+	height: 150px;
+	/*	height: 105px;*/
+	/*
+	background-image: url(../images/title3.png);
+	background-repeat: no-repeat;
+*/
+	/*	background-color: #f0e3c6;*/
+	border-bottom: 1px solid #999;
+	background-image: url(/images/title_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+body.grolier #banner img {
+float: left;
+width: 97px;
+margin: 15px 20px 0 30px;
+}
+
+body#index.grolier #banner h1, body.level2 #banner #siteTitle  {
+	padding-top: 25px;
+	margin-left: 155px;
+	margin-bottom: -20px;
+	width: 652px;
+	height: 105px;
+	font-size: 2.5em;
+	line-height: 1.1;
+}
+
+
+body.grolier #banner #grolier {
+font-size: 1.05em;
+margin-left: 155px;
+line-height: 1.25;
+}
+
+
+body#index.grolier #nav {
+float: left;
+width: 400px;
+margin: 40px 20px 0 -780px;
+/*background: #fed;*/
+/*overflow: auto;*/
+}
+
+body#index.grolier #nav h2 {
+/*clear: both;*/
+font-size: 1.5em;
+margin-bottom: 4em;
+/*overflow: auto;*/
+line-height: 1.4;
+width: 250px;
+}
+
+body#index.grolier #nav h2 a {
+display: block;
+color: #000;
+padding: 11px;
+border: 1px solid #c90;
+text-decoration: none;
+}
+
+body#index.grolier #nav h2 a:hover {
+padding: 10px;
+color: #900;
+border-color: #900;
+border-width: 2px;
+}
+
+body#index.grolier #nav h2 span.part {
+display: block;
+margin-bottom: 1.25em;
+}
+
+body#index.grolier #nav h2 span.period {
+display: block;
+font-size: .9em;
+/*
+margin-top: .5em;
+*/
+}
+
+body#index.grolier #nav h2 img {
+/*float: left;*/
+/*margin-right: 20px;*/
+margin-bottom: 10px;
+}
+
+body#index.grolier #nav h2 img {
+display: block;
+margin-top: 10px;
+}
+
+body#index.grolier #nav h2#sec-jlwpub {
+/*
+	width: 116px;
+	height: 206px;
+*/
+/*
+	text-indent: -5000px;
+	background-image: url(../images/jamesweildark.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+*/
+}
+
+#content {
+margin: 0 25px;
+}
+
+#content h1 {
+margin: 40px 0;
+font-size: 1.75em;
+}
+
+#intro {
+float: left;
+margin-top: 40px;
+margin-left: 380px;
+width: 400px;
+/*background: #def;*/
+}
+
+#intro img {
+float: right;
+margin: 0 20px 0;
+border: 2px solid #333;
+}
+
+#intro blockquote {
+clear: both;
+position: relative;
+top: 2em;
+
+/*margin-bottom: 2em;*/
+}
+
+#intro blockquote p{
+line-height: 1.5;font-size: 1.1em;
+}
+
+#intro cite {
+display: block;
+text-align: right;
+/*
+position: relative;
+top: 2em;
+*/
+line-height: 1.25em;
+/*background: #fcd;*/
+font-size: 1.1em;
+}
+
+#intro cite span {
+font-style: italic;
+}
+
+
+#footer {
+
+	clear: both;
+	position: relative;
+	top: 5em;
+	width: 100%;
+	text-align: center;
+	font-size: .95em;
+	line-height: 1.4;
+	padding-top: 1.4em;
+	color: #000;
+	background: transparent;
+	
+}
+
+#footer li {margin: 0 auto;
+	text-align: center;
+	margin-bottom: .5em;
+		color: #000;
+	background: transparent;
+	list-style: none;
+}
+
+
+/*Liz*/
+
+
+body.grolier #content #books {
+margin: 3em 0 3em 20px;
+}
+
+#content #books li, #content #profiles li {
+margin-bottom: 2em;
+text-transform: uppercase;
+font-size: 1.1em;
+}
+body#elizabeth_press.grolier #content #books li span.lc {
+text-transform: lowercase;
+font-style: italic;
+}
+
+body#elizabeth_press.grolier #content #books li p, #content #profiles li p, #content #books li p {
+width: 60%;
+margin: .5em 0 1em 20px;
+text-transform: none;
+line-height: 1.25;
+}
+
+#content #l2nav {
+	width: 850px;
+/*	padding-left: 50px;*/
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-left: -25px;
+	/*	margin-top: 10px;*/
+	overflow: auto;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: #efefef;
+}
+
+
+#l2nav li a {
+	float: left;
+	margin-right: 15px;
+	font-size: 1.1em;
+text-decoration: none;
+color: #900;
+	padding-right: 15px;
+/*	border-right: 2px solid #F65A1D ;
+	line-height: 1.35;
+*/
+}
+
+#l2nav li a:hover {
+text-decoration: underline;
+}
+
+#l2nav li#l2-home a {
+margin-left: 165px;
+
+/*border-left: 2px solid #F65A1D;*/
+/*padding-left: 15px;*/
+}

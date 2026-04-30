@@ -1,0 +1,25 @@
+/*
+body { font-size: 80%;
+margin: 30px auto;
+width: 759px;
+}
+#globalNav #gn-uwhome {display: inline; }
+#globalNav #gn-people {margin-right: 5px;}
+#content ol, #content ul {margin-left: 25px;}
+
+#content {height: 1px;}
+body#index.contest #content {padding-bottom: 0;}
+body#index.contest #attribution {margin-top: 40px;}
+
+body#register #content form fieldset#verifications {
+display: block;
+margin: 2em 0;
+}
+
+body#register #content form fieldset#security legend {
+margin-left: -7px;
+}
+*/
+
+#nav {display: none;}
+#intro {display: none;}

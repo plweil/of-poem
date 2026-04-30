@@ -1,0 +1,11 @@
+{
+  "autoload": {
+      "psr-4": {
+          "App\\": "app/"
+      }
+  },
+  "require": {
+      "symfony/yaml": "^7.4",
+    "league/commonmark": "^2.8"
+  }
+}

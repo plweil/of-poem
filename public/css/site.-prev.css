@@ -1,0 +1,127 @@
+/* css/site.css */
+
+/* Layout */
+/*.site-body {*/
+/*    @apply flex flex-col min-h-screen text-gray-800;*/
+/*    !*font-family: 'EB Garamond', serif;*!*/
+/*    !*background-color: #fdfcf9;*!*/
+/*}*/
+
+.site {
+    @apply max-w-3xl mx-auto py-10 flex-grow max-w-prose mx-auto px-4 text-lg leading-relaxed text-center;
+    /*border: 1px solid red;*/
+}
+
+.site-header {
+    @apply mb-12 text-center mt-10;
+}
+
+h1 {
+    @apply text-4xl font-semibold tracking-wide;
+}
+
+.site-title {
+    @apply text-3xl font-serif font-semibold mb-2;
+}
+
+.site-subtitle {
+    @apply text-gray-600 italic;
+}
+
+/* Featured poem */
+
+.featured-poem {
+    @apply border-t border-gray-300 pt-8 text-center;
+}
+
+.poem-title {
+    @apply text-xl font-semibold mb-1;
+}
+
+.poem-author {
+    @apply text-sm text-gray-500 mb-4;
+}
+
+pre.poem-body {
+    font-family: "EB Garamond", Georgia, serif!important;
+    font-size: 1rem;
+    line-height: 1.6;
+    white-space: pre-wrap;   /* preserve line breaks, wrap on small screens */
+    margin: 1.5em 0;
+}
+
+
+.poem-notes {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 1em;
+}
+
+/*.poem-notes {*/
+/*    @apply text-sm italic text-gray-500 mb-4;*/
+/*}*/
+
+.footer {
+    @apply mt-16 border-t border-gray-300 pt-8 text-center text-sm text-gray-600 max-w-prose mx-auto leading-relaxed;
+}
+
+.inquiry {
+    @apply text-red-700 hover:text-red-800 underline;
+}
+
+
+/* poets & poems */
+/*.poets > li {*/
+/*    list-style: none;*/
+/*}*/
+
+/*!*details > summary {*!*/
+/*!*    list-style: none;*!*/
+/*!*}*!*/
+/*.poets li details > summary::-webkit-details-marker {*/
+/*     color: #888;*/
+/*     font-size: .875rem;*/
+/*    !*display: none;*!*/
+/* }*/
+
+/*.poets details summary {cursor: pointer; font-weight: 600;}*/
+.poets > li {
+    list-style: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary {
+    list-style: none;
+}
+summary {
+    position: relative;
+    padding-left: 1.2em;
+    cursor: pointer;
+}
+
+summary::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.15s ease;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+
+/* States */
+.loading {
+    @apply text-gray-400 italic;
+}
+
+.error {
+    @apply text-red-700;
+}

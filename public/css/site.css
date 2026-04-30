@@ -1,0 +1,407 @@
+/* ---------------------------
+   Reset / Base
+--------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --serif: "Garamond", "Adobe Garamond Pro", "EB Garamond", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --accent: #4f5a48; /* darker, still muted */
+}
+
+::selection {
+    background: #e6e8e1;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: "EB Garamond", Georgia, serif;
+    line-height: 1.7;
+    color: #111;
+    background: #f5f5f3; /* warm neutral */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ---------------------------
+   Page Frame
+--------------------------- */
+
+main.content {
+    max-width: 900px;
+    margin: 3rem auto 2rem;
+    background: #ffffff;
+    padding: 3.5rem 3rem 2rem;
+    box-shadow:
+            0 1px 2px rgba(0,0,0,0.04),
+            0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* ---------------------------
+   Header
+--------------------------- */
+
+.header-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center; /* ensures everything inside centers */
+}
+
+.site-header {
+    margin-top: 2.5rem;
+    margin-bottom: 1.75rem;
+}
+
+/* Title: literary, not UI */
+.site-title {
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #222;
+    margin: 0;
+}
+/*.site-title a,*/
+
+.site-nav a {
+    color: #444;
+}
+
+.site-title a {
+    text-decoration: none;
+    /*color: inherit;*/
+    transition: color 0.2s ease;
+}
+
+.site-title a:hover {
+    color: var(--accent);
+}
+
+
+
+.site-title a:hover,
+.site-nav a:hover {
+    color: var(--accent);
+}
+
+/* Tagline: explicitly centered + constrained */
+.site-tagline {
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    color: #777;
+    margin: 0.5rem auto 0;
+    font-style: italic;
+    text-align: center;
+    max-width: 28rem; /* prevents it from stretching awkwardly */
+}
+
+/* Literary, slightly softer secondary line */
+.site-tagline {
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    color: #777;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.site-header::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #ddd;
+    margin: 1.25rem auto 0;
+}
+
+.site-nav {
+    margin-top: 1.75rem;
+}
+
+.site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+/* keep nav clearly "UI", not literary text */
+.site-nav a {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    /*color: #666;*/
+    transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+.site-nav a.active {
+    color: #222;
+}
+
+/* ---------------------------
+   Intro Section
+--------------------------- */
+
+.page-intro {
+    max-width: 640px;
+    margin: 0 auto 4rem;
+}
+
+.page-intro p {
+    margin: 0 0 1.4rem;
+}
+
+.page-intro blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    /*border-left: 2px solid #ddd;*/
+    /*font-style: italic;*/
+    font-size: .9325rem;
+    color: #222;
+}
+
+.section-break {
+    height: 5rem;
+    position: relative;
+}
+
+.section-break::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80px;              /* shorter = more intentional */
+    height: 1px;
+    background: #e3e3e3;
+    transform: translate(-50%, -50%);
+}
+
+/* move kicker out of the main text flow */
+.poem-kicker {
+    position: absolute;
+    left: -7rem;
+    top: 0.35rem;
+
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #999;
+
+    width: 6rem;
+    text-align: right;
+}
+
+.poem-kicker::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 1px;
+    background: #ddd;
+    margin-bottom: 0.75rem;
+}
+
+/* ---------------------------
+   Poem Block
+--------------------------- */
+
+.poem {
+    /*margin-top: 2rem;*/
+    /*padding-top: 2.5rem;*/
+    max-width: 640px;
+    margin: 0 auto 4rem;
+    padding-top: 3rem;
+    position: relative;
+}
+
+/* controls the whole poem block alignment */
+.poem-inner {
+    position: relative;
+    max-width: 36rem;
+    margin-left: 1rem;
+}
+
+/* Title feels like an object label */
+.poem h2, .poem-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 0 0.25rem;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.2rem;
+}
+
+.poem-author {
+    font-family: var(--serif);
+    font-size: 0.95rem;
+    color: #444;
+    /*margin: 0.35rem 0 2rem;*/
+    margin: 0.25rem 0 1.75rem;
+}
+
+.poem-author::before {
+    content: "— ";
+    color: #888;
+}
+
+.poem-body {
+    margin: 0;          /* important */
+    white-space: pre-wrap;
+    line-height: 1.85;
+    font-family: var(--serif);
+    font-size: 20px;
+}
+
+main .poem-body pre {
+    font-family: var(--serif);
+    margin: 0.5rem 0 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Poem Index */
+
+/* container aligned with poem pages */
+.index-inner {
+    max-width: 44rem;
+    margin: 0 auto;
+}
+
+/* page title */
+.index-title {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    /*margin: 0 0 2.5rem;*/
+}
+
+/* author sections */
+.author-group {
+    margin: 1.25rem 0;
+}
+
+.author-name {
+    font-family: var(--serif);
+    color: #222;
+    margin: 0 0 0.2rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+/* poem list */
+.poem-list {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-left: 1.25rem;
+}
+
+.poem-list li {
+    margin: 0.25rem 0;
+}
+
+/* links should feel like text, not UI */
+.poem-list a {
+    font-family: var(--serif);
+    text-decoration: none;
+    color: #333;
+}
+
+.poem-list a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.poem-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.poem-nav a {
+    text-decoration: none;
+}
+
+.back-link {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.back-link a {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.back-link a:hover {
+    opacity: 1;
+}
+
+/* ---------------------------
+   Footer
+--------------------------- */
+
+/*.site-footer {*/
+/*    text-align: center;*/
+/*    margin: 3rem 0 2rem;*/
+/*    font-size: 0.85rem;*/
+/*    color: #777;*/
+/*}*/
+
+footer {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    color: #666;
+}
+
+footer p {
+    margin: 0.5rem auto;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------------------
+   Subtle Enhancements
+--------------------------- */
+
+/* Better paragraph measure */
+p {
+    max-width: 65ch;
+}
+
+/* Slightly tighter poems on small screens */
+@media (max-width: 640px) {
+    main.content {
+        margin: 1.5rem 1rem;
+        padding: 2rem 1.5rem 2.5rem;
+    }
+
+    .page-intro {
+        margin-bottom: 3rem;
+    }
+}

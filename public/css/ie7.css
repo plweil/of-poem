@@ -1,0 +1,9 @@
+#content ul li span.ex-num {
+line-height: 1.25;
+}
+
+body.level2 ul#l2nav li {display: inline;}
+
+body#elizabeth_press #content ul li#minis h3 {
+font-weight: normal;
+}

@@ -1,0 +1,35 @@
+body {
+font-size: 75%;
+}
+
+#intro {display: inline}
+
+#intro cite {line-height: 1.25em;}
+#content ul li span.ex-num {
+margin-top: -.25em;
+line-height: 1.25;
+}
+
+body.level2 ul#l2nav li {display: inline;}
+
+body#elizabeth_press #content ul li#minis h3 {
+font-weight: normal;
+}
+
+body#jlw_poetry #content h2 {
+margin-left: 160px;
+font-style: italic;
+}
+
+body#jlw_poetry #content p.pub-note {
+margin: .5em 0 .5em 160px;
+font-style: italic;
+}
+
+body#jlw_poetry #content ul.books {
+margin-bottom: 2em;
+}
+
+body#jlw_poetry #content ul.books li {
+margin-bottom: .5em;
+}

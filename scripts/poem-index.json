@@ -1,0 +1,145 @@
+{
+    "generated_at": "2025-12-30T03:20:10+00:00",
+    "poems": [
+        {
+            "slug": "about-the-grass",
+            "title": "About the Grass",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "blue-chicory",
+            "title": "Blue Chicory",
+            "author": {
+                "first_name": "Lorine",
+                "last_name": "Niedecker"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "corman-untitled",
+            "title": "",
+            "author": {
+                "first_name": "Cid",
+                "last_name": "Corman"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "dawnings",
+            "title": "Dawnings",
+            "author": {
+                "first_name": "William",
+                "last_name": "Bronk"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "dear-bill",
+            "title": "Dear Bill",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": true
+        },
+        {
+            "slug": "endymion",
+            "title": "Endymion",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "From \"Two poems to two prints\" (done by Jacques Hnizdovsky)",
+            "featured": false
+        },
+        {
+            "slug": "english-violets",
+            "title": "English Violets",
+            "author": {
+                "first_name": "August",
+                "last_name": "Derleth"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "for-christa-mcauliffe",
+            "title": "For Christa McAuliffe And For The Rest Of Us",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "merlin",
+            "title": "Merlin",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "paz-calls-for-a",
+            "title": "Paz calls for a",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "self-portrait",
+            "title": "Selfportrait",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "From \"Two poems to two prints\" (done by Jacques Hnizdovsky)",
+            "featured": false
+        },
+        {
+            "slug": "that-shadow-this",
+            "title": "That Shadow, this",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "the-appearance",
+            "title": "The Appearance",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "your-father",
+            "title": "Your Father",
+            "author": {
+                "first_name": "James L.",
+                "last_name": "Weil"
+            },
+            "notes": "",
+            "featured": false
+        }
+    ]
+}
