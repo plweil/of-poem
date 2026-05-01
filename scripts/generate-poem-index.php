@@ -145,6 +145,14 @@ $POEM_METADATA = [
                 'last_name' => 'Weil'
             ],
             'notes' => ''
+        ],
+        'some-people-think' => [
+            'title' => 'Some People Think',
+            'author' => [
+                'first_name' => 'James',
+                'last_name' => 'Laughlin'
+            ],
+            'notes' => ''
         ]
 ];
 

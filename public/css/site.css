@@ -71,9 +71,9 @@ main.content {
 }
 /*.site-title a,*/
 
-.site-nav a {
-    color: #444;
-}
+/*.site-nav a {*/
+/*    color: #444;*/
+/*}*/
 
 .site-title a {
     text-decoration: none;
@@ -81,22 +81,11 @@ main.content {
     transition: color 0.2s ease;
 }
 
-.site-title a:hover {
-    color: var(--accent);
-}
-
-
-
-.site-title a:hover,
-.site-nav a:hover {
-    color: var(--accent);
-}
-
 /* Tagline: explicitly centered + constrained */
 .site-tagline {
     font-family: var(--serif);
-    font-size: 0.95rem;
-    color: #777;
+    font-size: 1.1rem;
+    color: #666;
     margin: 0.5rem auto 0;
     font-style: italic;
     text-align: center;
@@ -104,13 +93,13 @@ main.content {
 }
 
 /* Literary, slightly softer secondary line */
-.site-tagline {
-    font-family: var(--serif);
-    font-size: 0.95rem;
-    color: #777;
-    margin-top: 0.5rem;
-    font-style: italic;
-}
+/*.site-tagline {*/
+/*    font-family: var(--serif);*/
+/*    font-size: 1.1rem;*/
+/*    color: #777;*/
+/*    margin-top: 0.5rem;*/
+/*    font-style: italic;*/
+/*}*/
 
 .site-header::after {
     content: "";
@@ -142,7 +131,6 @@ main.content {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     text-decoration: none;
-    /*color: #666;*/
     transition: color 0.2s ease;
 }
 
@@ -155,6 +143,9 @@ main.content {
 
 .site-nav a.active {
     color: #222;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    font-weight: 500;
 }
 
 /* ---------------------------

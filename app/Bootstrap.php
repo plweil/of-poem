@@ -32,6 +32,7 @@ class Bootstrap
         $router->get('/', [HomeController::class, 'index']);
         $router->get('/poems', [PoemController::class, 'index']);
         $router->get('/poems/{slug}', [PoemController::class, 'show']);
+        $router->get('/about', [\App\Controllers\PageController::class, 'about']);
 
         // Dispatch
         $router->dispatch(
