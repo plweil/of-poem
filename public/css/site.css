@@ -313,11 +313,17 @@ main .poem-body pre {
     font-family: var(--serif);
     text-decoration: none;
     color: #333;
+    boder-bottom: 1px solid transparent;
 }
 
-.poem-list a:hover {
+.poem-list a:hover, .poem-list a:focus {
     text-decoration: underline;
-    text-underline-offset: 2px;
+    text-underline-offset: 4px;
+    /*border-bottom: 1px solid currentColor;*/
+}
+
+.poem-list a:focus {
+    outline: 1px dotted #999;
 }
 
 .poem-nav {
