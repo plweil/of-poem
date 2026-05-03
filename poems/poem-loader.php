@@ -60,13 +60,9 @@ function loadPoem(?string $slug = null): array
     // --------------------------------------------------
     // Parse YAML front matter
     // --------------------------------------------------
-
-    if (!preg_match('/^---\s*(.*?)\s*---\s*(.*)$/s', $raw, $matches)) {
-        throw new RuntimeException('Invalid poem format.');
-    }
-
-    $yaml    = Yaml::parse(trim($matches[1]));
-    $content = rtrim($matches[2]);
+    
+    $content = rtrim($raw);
+    $yaml = []; // no front matter
 
     // --------------------------------------------------
     // Prepare poem body for display
