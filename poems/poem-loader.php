@@ -60,7 +60,7 @@ function loadPoem(?string $slug = null): array
     // --------------------------------------------------
     // Parse YAML front matter
     // --------------------------------------------------
-    
+
     $content = rtrim($raw);
     $yaml = []; // no front matter
 
