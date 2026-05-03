@@ -5,7 +5,7 @@ use Symfony\Component\Yaml\Yaml;
 function loadPoem(?string $slug = null): array
 {
     $baseDir   = dirname(__DIR__); // adjust if needed
-    $indexFile = $baseDir . '/poem-index.json';
+    $indexFile = $baseDir . '/poems-index.json';
     $poemDir   = $baseDir . '/poems/source';
 
     if (!is_file($indexFile)) {
