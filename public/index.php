@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 define('BASE_PATH', dirname(__DIR__));
 define('DATA_PATH', BASE_PATH . '/data');
+define('BASE_URL', '');
 
 require BASE_PATH . '/vendor/autoload.php';
 require BASE_PATH . '/app/helpers.php';

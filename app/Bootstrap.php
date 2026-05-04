@@ -31,10 +31,8 @@ class Bootstrap
         // Routes
         $router->get('/', [HomeController::class, 'index']);
         $router->get('/poems', [PoemController::class, 'index']);
-        $router->get('/poems/', [PoemController::class, 'index']);
         $router->get('/poems/{slug}', [PoemController::class, 'show']);
-        $router->get('/about', [\App\Controllers\PageController::class, 'about']);
-
+        $router->get('/about', [PageController::class, 'about']);
         // Dispatch
         $router->dispatch(
             $_SERVER['REQUEST_URI'],
