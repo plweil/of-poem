@@ -24,18 +24,14 @@ if ($poem): ?>
 
     </div>
 
-<!--    <section class="section-break"></section>-->
+    <hr class="section-divider">
     <article class="poem">
       <div class="poem-inner">
-        <h2><?= htmlspecialchars($poem['title']) ?></h2>
-
+        <h2 class="poem-title"><?= htmlspecialchars(trim($poem['title'] ?? '') !== '' ? $poem['title'] : '(Untitled)') ?></h2>
+        <pre class="poem-body"><?= htmlspecialchars($poem['body']) ?></pre>
         <p class="poem-author">
           <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
         </p>
-
-        <pre class="poem-body">
-<?= htmlspecialchars($poem['body']) ?>
-    </pre>
       </div>
     </article>
   </main>

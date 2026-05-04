@@ -27,10 +27,6 @@ require BASE_PATH . '/app/Views/partials/header.php';
         <?= htmlspecialchars(trim($poem['title'] ?? '') !== '' ? $poem['title'] : 'Untitled') ?>
       </h1>
 
-      <p class="poem-author">
-        <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
-      </p>
-
       <?php if (trim($poem['notes'] ?? '') !== ''): ?>
         <div class="poem-notes">
           <?= nl2br(htmlspecialchars($poem['notes'])) ?>
@@ -38,6 +34,9 @@ require BASE_PATH . '/app/Views/partials/header.php';
       <?php endif; ?>
 
       <div class="poem-body"><pre><?= htmlspecialchars($body !== '' ? $body : 'Poem text not available.') ?></pre></div>
+      <p class="poem-author">
+        <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
+      </p>
       <p class="back-link">
         <a href="/poems">← Back to poems</a>
       </p>
