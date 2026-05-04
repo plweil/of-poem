@@ -217,9 +217,9 @@ main.content {
 
 .section-divider {
     border: none;
-    border-top: 1px solid #ddd;
-    margin: 3rem auto;
+    margin: 3rem auto 2.5rem;
     width: 60%;
+    border-top: 1px solid rgba(0,0,0,0.15);
 }
 
 .poem {
@@ -318,7 +318,7 @@ main .poem-body pre {
     font-family: var(--serif);
     text-decoration: none;
     color: #333;
-    boder-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .poem-list a:hover, .poem-list a:focus {
@@ -346,7 +346,7 @@ main .poem-body pre {
     margin-bottom: 1rem;
     font-size: 0.9rem;
     padding-top: 2rem;
-    border-top: 1px solid #e6e8e1;
+    border-top: 1px solid rgba(0,0,0,0.15);
 }
 
 .back-link a {
