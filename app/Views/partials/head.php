@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title><?= htmlspecialchars($title ?? 'Of Poem') ?></title>
+  <title><?= htmlspecialchars($title ?? 'Of Poem: James L. Weil and the poetry he loved') ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="<?= BASE_URL ?>/css/site.css">

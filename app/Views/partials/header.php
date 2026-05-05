@@ -10,6 +10,11 @@
     </div>
     <?php endif; ?>
 
+    <?php if (empty($is_subpage)): ?>
+    <h2 class="site-tagline super">James L. Weil and the poetry he loved</h2>
+    <?php else: ?>
+    <div class="site-tagline super">James L. Weil and the poetry he loved</div>
+    <?php endif; ?>
     <p class="site-tagline">
       An anthology
     </p>
