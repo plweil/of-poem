@@ -1,12 +1,12 @@
 <!-- Footer -->
 <footer>
   <p>
-    <a href="mailto:info@jlwpub.com">
+    <a href="mailto:webmaster@ofpoem.org">
       Comments and inquiries
     </a>
   </p>
   <p>
-    © 2009–<?= date('Y') ?> Peter L. Weil, Black Earth, Wisconsin
+    © 2009–<?= date('Y') ?> Peter Weil, Black Earth, Wisconsin
   </p>
 </footer>
 </body>
