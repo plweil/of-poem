@@ -178,7 +178,7 @@ body#index.grolier nav {
 body#index.grolier nav ul {
 	display: flex;
 	justify-content: flex-start;
-	gap: 90px;
+	gap: 1.5rem;
 	margin-left: 90px;
 	/*float: left;*/
 	/*margin: 40px 0 0 30px;*/
@@ -198,7 +198,7 @@ body#index.grolier nav ul li {
 	margin: 0;
 	min-height: 160px;
 	max-width: 250px;
-	min-width: 220px;
+	min-width: 150px;
 	/*border-radius: 5px;*/
 	/*border: 1px solid !*#c90*! #666;*/
 	text-align: center;
@@ -453,7 +453,7 @@ margin-bottom: .5em;
 	/*width: 850px;*/
 	padding-top: 10px;
 	padding-bottom: 5px;
-	margin: 2.5rem 0 4rem 40px;
+	margin: 2.5rem 2rem 4rem 40px;
 
 	/*border-top: 1px solid #ccc;*/
 	/*border-bottom: 1px solid #ccc;*/
