@@ -6,7 +6,8 @@ require BASE_PATH . '/app/Views/partials/header.php';
 ?>
 
 <main class="content">
-    <h1>About this Site: Rights and Permissions</h1>
+    <h1>About this Site</h1>
+  <h2>Rights and Permissions</h2>
   <p>The poems presented here are the work of their respective authors. Many first appeared in <cite>Elizabeth</cite> or under the imprint of either
     The Elizabeth Press or James L. Weil, Publisher. Others were reprinted in <cite>Elizabeth</cite> from other small presses, poetry reviews, etc.</p>
 

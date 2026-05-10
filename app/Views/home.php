@@ -16,7 +16,7 @@ if ($poem): ?>
         there.” Against the impersonal voice of the “poem addressed to The Editor,” these works insist on presence—on
         poem as a direct human act.</p>
 
-      <p>This site presents a new <cite>Of Poem</cite>: a selection drawn from both the original anthology and the later work of James Weil, as both poet and publisher. It includes works by some of his favorite writers and closest associates— <a href="https://lorineniedecker.org/">Lorine Niedecker</a>, <a href="https://www.poetryfoundation.org/poets/theodore-enslin">Theodore Enslin</a>, <a href="https://www.poetryfoundation.org/poets/cid-corman">Cid Corman</a>, <a href="https://simonperchikpoetry.com">Simon Perchik</a>,
+      <p>This site presents a new <cite>Of Poem</cite>: a selection drawn from both the original anthology and the later work of James Weil, as both poet and publisher. It will include works by some of his favorite writers and closest associates— <a href="https://lorineniedecker.org/">Lorine Niedecker</a>, <a href="https://www.poetryfoundation.org/poets/theodore-enslin">Theodore Enslin</a>, <a href="https://www.poetryfoundation.org/poets/cid-corman">Cid Corman</a>, <a href="https://simonperchikpoetry.com">Simon Perchik</a>,
         <a href="https://www.poetryfoundation.org/poets/william-bronk">William Bronk</a> and others—alongside a range of his own work across different periods.</p>
 
       <p>The selection is necessarily partial, shaped by preference as much as by design. A featured poem appears here
