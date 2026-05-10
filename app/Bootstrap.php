@@ -4,6 +4,7 @@ namespace App;
 
 use App\Controllers\HomeController;
 use App\Controllers\PoemController;
+use App\Controllers\PageController;
 use App\Repositories\PoemRepository;
 use App\Services\FeaturedPoemService;
 use App\Routing\Router;

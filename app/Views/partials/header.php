@@ -1,23 +1,25 @@
 <header class="site-header">
   <div class="header-inner">
-    <?php if (empty($is_subpage)): ?>
-    <h1 class="site-title">
-      Of Poem
-    </h1>
-    <?php else: ?>
-    <div class="site-title">
-      <a href="/">Of Poem</a>
-    </div>
-    <?php endif; ?>
 
-    <?php if (empty($is_subpage)): ?>
-    <h2 class="site-tagline super">James L. Weil and the poetry he loved</h2>
+    <?php $tag = empty($is_subpage) ? 'h1' : 'div'; ?>
+    <<?= $tag ?> class="site-title">
+    <?php if (!empty($is_subpage)): ?>
+      <a href="/">Of Poem</a>
     <?php else: ?>
-    <div class="site-tagline super">James L. Weil and the poetry he loved</div>
+      Of Poem
     <?php endif; ?>
-    <p class="site-tagline">
-      An anthology
-    </p>
-    <?php require BASE_PATH . '/app/Views/partials/nav.php'; ?>
-  </div>
+    </<?= $tag ?>>
+
+
+  <?php $tag = empty($is_subpage) ? 'h2' : 'div'; ?>
+
+  <<?= $tag ?> class="site-tagline">
+  James L. Weil and Echoes of <cite>Elizabeth</cite>
+  </<?= $tag ?>>
+
+<p class="site-tagline second">
+  An anthology
+</p>
+<?php require BASE_PATH . '/app/Views/partials/nav.php'; ?>
+</div>
 </header>
