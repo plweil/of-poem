@@ -2,11 +2,12 @@
 <footer>
   <p>
     <a href="mailto:webmaster@ofpoem.org">
-      Comments and inquiries
+      Contact us
     </a>
   </p>
   <p>
-    © 2009–<?= date('Y') ?> Peter Weil, Black Earth, Wisconsin
+    © 2009–<?= date('Y') ?><br>
+    <span class="pw">Peter Weil</span>Black Earth, Wisconsin
   </p>
 </footer>
 </body>

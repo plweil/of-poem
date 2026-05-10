@@ -18,9 +18,6 @@ require BASE_PATH . '/app/Views/partials/header.php';
 ?>
 
   <main class="content">
-<!--    <p class="back-link">-->
-<!--      <a href="/poems">← Back to poems</a>-->
-<!--    </p>-->
     <article class="poem">
 
       <h1 class="poem-title">
@@ -41,23 +38,6 @@ require BASE_PATH . '/app/Views/partials/header.php';
         <a href="/poems">← Back to poems</a>
       </p>
     </article>
-
-
-<!--    <nav class="poem-nav">-->
-<!--      --><?php //if ($prev): ?>
-<!--        <a class="prev" href="/poems/--><?php //= htmlspecialchars($prev['slug']) ?><!--">-->
-<!--          ← --><?php //= htmlspecialchars($prev['title'] ?: 'Untitled') ?>
-<!--        </a>-->
-<!--      --><?php //endif; ?>
-<!---->
-<!--      --><?php //if ($next): ?>
-<!--        <a class="next" href="/poems/--><?php //= htmlspecialchars($next['slug']) ?><!--">-->
-<!--          --><?php //= htmlspecialchars($next['title'] ?: 'Untitled') ?><!-- →-->
-<!--        </a>-->
-<!--      --><?php //endif; ?>
-<!--    </nav>-->
   </main>
 
 <?php require BASE_PATH . '/app/Views/partials/footer.php'; ?>
-<!---->
-<!--</body>-->

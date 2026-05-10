@@ -2,7 +2,7 @@
   <div class="header-inner">
     <?php if (empty($is_subpage)): ?>
     <h1 class="site-title">
-      <a href="/">Of Poem</a>
+      Of Poem
     </h1>
     <?php else: ?>
     <div class="site-title">

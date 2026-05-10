@@ -9,8 +9,9 @@
 }
 
 :root {
-    --serif: "EB Garamond", serif;
-    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --serif: Georgia, serif;
+    --poem-serif: "EB Garamond", serif;
+    --sans: "Alegreya Sans", sans-serif;
     --accent: #4f5a48; /* darker, still muted */
 }
 
@@ -24,8 +25,8 @@ html {
 
 body {
     margin: 0;
-    font-family: "EB Garamond", Georgia, serif;
-    line-height: 1.7;
+    font-family: var(--serif);
+    line-height: 1.65;
     color: #111;
     background: #f5f5f3; /* warm neutral */
     -webkit-font-smoothing: antialiased;
@@ -37,7 +38,7 @@ body {
 
 main.content {
     max-width: 900px;
-    margin: 3rem auto 2rem;
+    margin: 2rem auto 1rem;
     background: #ffffff;
     padding: 3.5rem 3rem 2rem;
     box-shadow:
@@ -62,10 +63,10 @@ main.content {
 
 /* Title: literary, not UI */
 .site-title {
-    font-family: var(--serif);
-    font-size: 1.4rem;
-    font-weight: 500;
-    letter-spacing: -0.01em;
+    font-family: var(--sans);
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 0.005em;
     color: #222;
     margin: 0;
 }
@@ -76,21 +77,20 @@ main.content {
 }
 
 /* Tagline: explicitly centered + constrained */
-.site-tagline.super {
-    font-weight: 500;
-    font-style: normal;
-}
-
 .site-tagline {
-    font-family: var(--serif);
-    font-size: 1.1rem;
+    /*font-family: var(--serif);*/
+    font-weight: 400;
+    font-size: 1rem;
     color: #666;
     margin: 0.5rem auto 0;
     font-style: italic;
     text-align: center;
     max-width: 28rem; /* prevents it from stretching awkwardly */
 }
-
+.site-tagline.super {
+    /*font-weight: 400;*/
+    font-style: normal;
+}
 .site-header::after {
     content: "";
     display: block;
@@ -117,8 +117,8 @@ main.content {
 /* keep nav clearly "UI", not literary text */
 .site-nav a {
     font-family: var(--sans);
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-decoration: none;
     transition: color 0.2s ease;
@@ -226,14 +226,16 @@ main.content {
 
 /* Title feels like an object label */
 .poem h2, .poem-title {
-    font-size: 1.45rem;
+    font-family: var(--poem-serif);
+    font-size: 1.75rem;
     font-weight: 500;
-    margin: 0 0 1rem;
+    margin: 0 0 1.25rem;
     letter-spacing: -0.01em;
 }
 
 .poem-author {
-    font-family: var(--serif);
+    font-family: var(--poem-serif);
+    line-height: 1.7;
     font-size: 1rem;
     color: #444;
     margin: 1.5rem 0 1.75rem;
@@ -247,16 +249,16 @@ main.content {
 .poem-body {
     margin: 0;          /* important */
     white-space: pre-wrap;
-    line-height: 1.85;
-    font-family: var(--serif);
-    font-size: 20px;
+    line-height: 1.7;
+    font-family: var(--poem-serif);
+    font-size: 1.1rem;
 }
 
 main .poem-body pre {
-    font-family: var(--serif);
+    font-family: var(--poem-serif);
     margin: 0.5rem 0 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* Poem Index */
@@ -279,7 +281,7 @@ main .poem-body pre {
 }
 
 .author-name {
-    font-family: var(--serif);
+    /*font-family: var(--poem-serif);*/
     color: #222;
     margin: 0 0 0.2rem;
     font-size: 1.15rem;
@@ -300,7 +302,7 @@ main .poem-body pre {
 
 /* links should feel like text, not UI */
 .poem-list a {
-    font-family: var(--serif);
+    /*font-family: var(--serif);*/
     text-decoration: none;
     color: #333;
     border-bottom: 1px solid transparent;
@@ -349,17 +351,22 @@ main .poem-body pre {
 footer {
     text-align: center;
     font-size: 0.85rem;
-    margin-top: 2rem;
-    padding: 1rem 1rem;
+    margin-top: 0;
+    padding: .5rem 1rem 1rem;
     color: #666;
 }
 
 footer p {
-    margin: 0.5rem auto;
+    margin: 0.25rem auto;
 }
 
 footer a {
     text-decoration: none;
+}
+
+footer .pw:after {
+    content: "\2022";
+    margin: 0 5px;
 }
 
 footer a:hover {
@@ -378,7 +385,7 @@ p {
 /* Slightly tighter poems on small screens */
 @media (max-width: 640px) {
     main.content {
-        margin: 1.5rem 1rem;
+        margin: 1.5rem .5rem;
         padding: 2rem 1.5rem 2.5rem;
     }
 
