@@ -10,6 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="<?= BASE_URL ?>/css/site.css">
+  <link rel="stylesheet" href="<?= BASE_URL ?>/css/site.css?v=2">
 </head>
 <body>
