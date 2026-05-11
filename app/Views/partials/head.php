@@ -20,7 +20,7 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-9TX3Y6BWEV', {
-	    'anonymize_ip': true
+	    anonymize_ip: true
     });
   </script>
 </head>
