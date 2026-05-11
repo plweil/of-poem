@@ -19,7 +19,7 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 
-	  gtag('config', 'G-9TX3Y6BWEV' {
+	  gtag('config', 'G-9TX3Y6BWEV', {
 	    'anonymize_ip': true
     });
   </script>
