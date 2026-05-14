@@ -30,7 +30,7 @@ require BASE_PATH . '/app/Views/partials/header.php';
         </div>
       <?php endif; ?>
 
-      <div class="poem-body"><pre><?= htmlspecialchars($body !== '' ? $body : 'Poem text not available.') ?></pre></div>
+      <div class="poem-body"><pre><?= renderPoemText($body !== '' ? $body : 'Poem text not available.') ?></pre></div>
       <p class="poem-author">
         <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
       </p>

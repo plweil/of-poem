@@ -28,7 +28,7 @@ if ($poem): ?>
     <article class="poem">
       <div class="poem-inner">
         <h2 class="poem-title"><?= htmlspecialchars(trim($poem['title'] ?? '') !== '' ? $poem['title'] : '(Untitled)') ?></h2>
-        <pre class="poem-body"><?= htmlspecialchars($poem['body']) ?></pre>
+        <pre class="poem-body"><?= renderPoemText($poem['body']) ?></pre>
         <p class="poem-author">
           <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
         </p>

@@ -170,6 +170,16 @@
             },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "happening-in-a-yard",
+            "title": "Happening in a Yard",
+            "author": {
+                "first_name": "Simon",
+                "last_name": "Perchik"
+            },
+            "notes": "",
+            "featured": false
         }
     ]
 }

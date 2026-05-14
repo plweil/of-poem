@@ -262,6 +262,34 @@ main .poem-body pre {
     line-height: 1.7;
 }
 
+.poem-body .indent-10,
+.poem-body .indent-15,
+.poem-body .indent-25,
+.poem-body .indent-40,
+.poem-body .indent-60 {
+    display: inline-block;
+}
+
+.poem-body .indent-10 {
+    margin-left: 10%;
+}
+
+.poem-body .indent-15 {
+    margin-left: 15%;
+}
+
+.poem-body .indent-25 {
+    margin-left: 25%;
+}
+
+.poem-body .indent-40 {
+    margin-left: 40%;
+}
+
+.poem-body .indent-60 {
+    margin-left: 60%;
+}
+
 /* Poem Index */
 
 /* container aligned with poem pages */
