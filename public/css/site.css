@@ -15,6 +15,17 @@
     --accent: #4f5a48; /* darker, still muted */
 }
 
+.visually-hidden {
+    border: 0;
+    clip-path: inset(50%);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 ::selection {
     background: #e6e8e1;
 }

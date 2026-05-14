@@ -22,6 +22,7 @@ require BASE_PATH . '/app/Views/partials/header.php';
 
       <h1 class="poem-title">
         <?= htmlspecialchars(trim($poem['title'] ?? '') !== '' ? $poem['title'] : 'Untitled') ?>
+        <span class="visually-hidden">By <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?></span>
       </h1>
 
       <?php if (trim($poem['notes'] ?? '') !== ''): ?>
