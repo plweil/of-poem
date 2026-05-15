@@ -24,7 +24,7 @@ class HomeController
         if ($poem) {
             $poem['body'] = $this->poems->loadPoemBody($poem['slug']);
         }
-
+        $pageTitle =null;
         require BASE_PATH . '/app/Views/home.php';
     }
 }

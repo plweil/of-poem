@@ -1,6 +1,6 @@
 <?php
 /** @var array<array{author: array, poems: array}> $authors */
-$pageTitle = 'Poems';
+$pageTitle = 'Poems and Authors';
 $is_subpage = true;
 require BASE_PATH . '/app/Views/partials/head.php';
 require BASE_PATH . '/app/Views/partials/header.php';
@@ -10,6 +10,7 @@ require BASE_PATH . '/app/Views/partials/header.php';
     <div class="index-inner">
 
       <h1 class="index-title">Poems</h1>
+      <p>Poems are grouped by author, and authors are ordered alphabetically.</p>
 
       <?php foreach ($authors as $group): ?>
         <section class="author-group">

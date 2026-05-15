@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title><?= htmlspecialchars($title ?? 'Of Poem: James L. Weil') ?></title>
+  <title><?= htmlspecialchars(!empty($pageTitle)
+        ? "$pageTitle | Of Poem: James L. Weil"
+        : "Of Poem: James L. Weil") ?>
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -11,7 +11,11 @@
  * @var string $body
  */
 $is_subpage = true;
-$pageTitle = $poem['title'] ?? 'Untitled';
+$pageTitle =
+    !empty($poem['title'])
+        ? $poem['title']
+        : $poem['author']['first_name'] . ' ' .
+        $poem['author']['last_name'] . ' — Untitled Poem';
 
 require BASE_PATH . '/app/Views/partials/head.php';
 require BASE_PATH . '/app/Views/partials/header.php';
