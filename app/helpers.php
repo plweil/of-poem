@@ -4,6 +4,48 @@ function current_path(): string
     return parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
 }
 
+function formatTitle(string $title): string
+{
+    $formattedTitle = trim($title) ?: 'Untitled';
+    $formattedTitle = htmlspecialchars($title, ENT_QUOTES, 'UTF-8');
+
+    return preg_replace_callback(
+        '/\{\{class=([^:]+):(.*?)\}\}/',
+        function ($matches) {
+            $classes = preg_split('/\s+/', trim($matches[1]));
+
+            $classes = array_map(
+                fn($class) => 'title-' . $class,
+                $classes
+            );
+
+            return sprintf(
+                '<span class="%s">%s</span>',
+                implode(' ', $classes),
+                $matches[2]
+            );
+        },
+        $formattedTitle
+    );
+}
+
+function plainTitle(string $title): string
+{
+    $cleanTitle = trim($title);
+
+    if ($cleanTitle === '') {
+        $cleanTitle = 'Untitled';
+    }
+
+    $cleanTitle = preg_replace(
+        '/\{\{class=[^:]+:(.*?)\}\}/',
+        ' $1',
+        $cleanTitle
+    );
+
+    return preg_replace('/\s+/', ' ', trim($cleanTitle));
+}
+
 
 /**
  * @param string $text
@@ -13,24 +55,24 @@ function current_path(): string
  */
 function renderPoemText(string $text): string
 {
-    $lines = preg_split('/\R/', $text);
+    $text = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
 
-    $renderedLines = array_map(function ($line) {
-        // Match markers like:
-        // {indent-25}text
-        // {indent-40}text
-        // {indent-60}text
-        if (preg_match('/^\{indent-(10|15|25|40|60)\}(.*)$/', $line, $matches)) {
-            $indent = $matches[1];
-            $content = $matches[2];
+    return preg_replace_callback(
+        '/\{\{class=([^:]+):(.*?)}}/',
+        function ($matches) {
+            $classes = preg_split('/\s+/', trim($matches[1]));
 
-            return '<span class="indent-' . $indent . '">' .
-                htmlspecialchars($content, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') .
-                '</span>';
-        }
+            $classes = array_map(
+                fn($class) => 'poem-' . trim($class),
+                $classes
+            );
 
-        return htmlspecialchars($line, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
-    }, $lines);
-
-    return implode("\n", $renderedLines);
+            return sprintf(
+                '<span class="%s">%s</span>',
+                implode(' ', $classes),
+                $matches[2]
+            );
+        },
+        $text
+    );
 }

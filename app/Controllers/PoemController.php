@@ -10,7 +10,7 @@ class PoemController
 {
 
     public function __construct(
-        private PoemRepository $poemRepository,
+        private PoemRepository $poemRepository
     )
     {
     }

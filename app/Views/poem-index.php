@@ -22,7 +22,7 @@ require BASE_PATH . '/app/Views/partials/header.php';
             <?php foreach ($group['poems'] as $poem): ?>
               <li>
                 <a href="/poems/<?= htmlspecialchars($poem['slug']) ?>">
-                  <?= htmlspecialchars(trim($poem['title'] ?? '') !== '' ? $poem['title'] : 'Untitled') ?>
+                  <?= htmlspecialchars(plainTitle(trim($poem['title'] ?? '') !== '' ? $poem['title'] : 'Untitled')) ?>
                 </a>
               </li>
             <?php endforeach; ?>

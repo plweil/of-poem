@@ -180,6 +180,17 @@
             },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "there-now-here",
+            "title": "there now{{class=right block stretched:here}}",
+            "author": {
+                "first_name": "Larry",
+                "last_name": "Eigner"
+            },
+            "notes": "",
+            "featured": false
         }
+
     ]
 }

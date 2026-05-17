@@ -1,0 +1,24 @@
+there now {{class=indent5 stretched:here}}
+{{class=indent5:the overlap of}}
+{{class=indent7:8 minutes}} {{class=indent5:splitsecond}}
+{{class=indent10:sunshine}}
+{{class=indent12:off the walk}}
+{{class=indent30:and an hour of}}
+{{class=indent25:cloudless sky}}
+{{class=indent15:a million years}}
+{{class=indent20:from the center to the surface}}
+{{class=indent20:gas float}}
+{{class=indent40:out}}
+{{class=indent25:when we can’t see}}
+{{class=indent50:1.3 sec.s}}
+{{class=indent20:the moon’s}}
+{{class=indent25:distances}}
+{{class=indent30:level}}
+{{class=indent25:years all}}
+{{class=indent30:directions}}
+{{class=indent35:the pileup of stars}}
+{{class=indent40:pushed}}
+{{class=indent45:away}}
+{{class=indent42:pulled}}
+{{class=indent45:in}}
+{{class=indent45:mostly pairs}}

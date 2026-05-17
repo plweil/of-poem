@@ -243,6 +243,25 @@ main.content {
     font-weight: 500;
     margin: 0 0 1.25rem;
     letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+/*special title formatting rules*/
+.poem-title .title-right {
+    margin-left: 25%;
+    /*line-height: 1;*/
+}
+
+.poem-title .title-block{
+    display: block;
+}
+
+.poem-title .title-larger {
+    font-size: 2rem;
+}
+
+.poem-title .title-stretched {
+    letter-spacing: 0.25em;
 }
 
 .poem-author {
@@ -273,31 +292,101 @@ main .poem-body pre {
     line-height: 1.7;
 }
 
-.poem-body .indent-10,
-.poem-body .indent-15,
-.poem-body .indent-25,
-.poem-body .indent-40,
-.poem-body .indent-60 {
+/*poem body special formatting rules*/
+.poem-body .poem-block {
+    display: block;
+}
+
+.poem-body .poem-right {
+    text-align: right;
+}
+
+.poem-body .poem-small {
+    font-size: 0.85em;
+}
+
+.poem-body .poem-larger {
+    font-size: 1.15rem;
+}
+
+.poem-body .poem-stretched {
+    letter-spacing: 0.2em;
+}
+poem-body .poem-indent5,
+.poem-body .poem-indent7
+.poem-body .poem-indent10,
+.poem-body .poem-indent12,
+.poem-body .poem-indent15,
+.poem-body .poem-indent20,
+.poem-body .poem-indent25,
+.poem-body .poem-indent30,
+.poem-body .poem-indent35,
+.poem-body .poem-indent40,
+.poem-body .poem-indent42,
+.poem-body .poem-indent45,
+.poem-body .poem-indent50,
+.poem-body .poem-indent55,
+.poem-body .poem-indent60 {
     display: inline-block;
 }
 
-.poem-body .indent-10 {
+.poem-body .poem-indent5 {
+    margin-left: 5%;
+}
+
+.poem-body .poem-indent7 {
+    margin-left: 7%;
+}
+
+.poem-body .poem-indent10 {
     margin-left: 10%;
 }
 
-.poem-body .indent-15 {
+.poem-body .poem-indent12 {
+    margin-left: 12%;
+}
+
+.poem-body .poem-indent15 {
     margin-left: 15%;
 }
 
-.poem-body .indent-25 {
+.poem-body .poem-indent20 {
+    margin-left: 20%;
+}
+
+.poem-body .poem-indent25 {
     margin-left: 25%;
 }
 
-.poem-body .indent-40 {
+.poem-body .poem-indent30 {
+    margin-left: 30%;
+}
+
+.poem-body .poem-indent35 {
+    margin-left: 35%;
+}
+
+.poem-body .poem-indent40 {
     margin-left: 40%;
 }
 
-.poem-body .indent-60 {
+.poem-body .poem-indent42 {
+    margin-left: 42%;
+}
+
+.poem-body .poem-indent45 {
+    margin-left: 45%;
+}
+
+.poem-body .poem-indent50 {
+    margin-left: 50%;
+}
+
+.poem-body .poem-indent55 {
+    margin-left: 55%;
+}
+
+.poem-body .poem-indent60 {
     margin-left: 60%;
 }
 
@@ -321,7 +410,6 @@ main .poem-body pre {
 }
 
 .author-name {
-    /*font-family: var(--poem-serif);*/
     color: #222;
     margin: 0 0 0.2rem;
     font-size: 1.15rem;

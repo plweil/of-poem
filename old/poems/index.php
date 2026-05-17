@@ -50,7 +50,7 @@ $notes  = $yaml['notes'] ?? '';
 <article class="poem">
 
     <?php if ($title !== ''): ?>
-        <h1><?= htmlspecialchars($title) ?></h1>
+        <h1><?= htmlspecialchars(plainTitle($title)) ?></h1>
     <?php endif; ?>
 
     <p class="poem-author">

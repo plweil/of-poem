@@ -3,16 +3,17 @@ events won't translate. Say just
 
 you saw more than the usual count
 of swallows
-{indent-25}strung
+{{class=block indent25:strung}}
 like pins aligned above the line
 
-{indent-25}except no clothes
+{{class=block indent25:except no clothes}}
 were drying, no birds were flying
 no sun and your car
-{indent-25}went by so fast
+{{class=block indent25:except no clothes}}
+went by so fast
 
 you never saw the owner of the house
 or if she moved
 while you still try transcribing
 
-{indent-25}all those birds.
+{{class=block indent25:eall those birds}}.
