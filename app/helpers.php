@@ -58,19 +58,31 @@ function renderPoemText(string $text): string
     $text = htmlspecialchars($text, ENT_QUOTES, 'UTF-8');
 
     return preg_replace_callback(
-        '/\{\{class=([^:]+):(.*?)}}/',
+        '/\{\{class=([^:]+):(.*?)\}\}/',
         function ($matches) {
-            $classes = preg_split('/\s+/', trim($matches[1]));
 
+            $classes = preg_split('/\s+/', trim($matches[1]));
+            $content = $matches[2];
+
+            // Special handling
+            if (in_array('separator', $classes)) {
+
+                return sprintf(
+                    '<div class="poem-separator" role="separator" aria-label="Section break"><span aria-hidden="true">%s</span></div>',
+                    $content
+                );
+            }
+
+            // Normal span behavior
             $classes = array_map(
-                fn($class) => 'poem-' . trim($class),
+                fn($c) => 'poem-' . $c,
                 $classes
             );
 
             return sprintf(
                 '<span class="%s">%s</span>',
                 implode(' ', $classes),
-                $matches[2]
+                $content
             );
         },
         $text

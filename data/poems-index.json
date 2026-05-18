@@ -190,7 +190,18 @@
             },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "ad-poetam",
+            "title": "Ad Poetam",
+            "author": {
+                "first_name": "Felix",
+                "last_name": "Pollak"
+               },
+            "notes": "",
+            "featured": false
         }
+
 
     ]
 }

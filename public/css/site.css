@@ -390,6 +390,14 @@ poem-body .poem-indent5,
     margin-left: 60%;
 }
 
+.poem-body .poem-separator {
+    margin: 1.5em 0 0 5%;
+}
+
+.poem-body .poem-separator span {
+    font-size: 2.5rem;
+}
+
 /* Poem Index */
 
 /* container aligned with poem pages */

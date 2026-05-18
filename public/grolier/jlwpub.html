@@ -8,13 +8,22 @@
 	 <!-- Google tag (gtag.js) -->
 	 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9TX3Y6BWEV"></script>
 	 <script>
-		 window.dataLayer = window.dataLayer || [];
-		 function gtag(){dataLayer.push(arguments);}
-		 gtag('js', new Date());
+		 const host = window.location.hostname;
 
-		 gtag('config', 'G-9TX3Y6BWEV', {
-			 anonymize_ip: true
-		 });
+		 // Only send data if not on test, ocalhost or 127.0.0.1
+		 if (host !== 'ofpoem.test' && host !== 'localhost' && host !== '127.0.0.1') {
+			 window.dataLayer = window.dataLayer || [];
+
+			 function gtag() {
+				 dataLayer.push(arguments);
+			 }
+
+			 gtag('js', new Date());
+
+			 gtag('config', 'G-9TX3Y6BWEV', {
+				 anonymize_ip: true
+			 });
+		 }
 	 </script>
  </head>
 
