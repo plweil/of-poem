@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Featured Poem';
+$pageTitle = 'Welcome and Featured Poem';
 $is_subpage = false;
 require BASE_PATH . '/app/Views/partials/head.php';
 require BASE_PATH . '/app/Views/partials/header.php';
