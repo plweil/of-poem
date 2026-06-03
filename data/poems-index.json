@@ -8,6 +8,12 @@
                 "first_name": "Cid",
                 "last_name": "Corman"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -18,6 +24,12 @@
                 "first_name": "Theodore",
                 "last_name": "Enslin"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -28,6 +40,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -38,6 +56,12 @@
                 "first_name": "Lorine",
                 "last_name": "Niedecker"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -48,6 +72,12 @@
                 "first_name": "Lorine",
                 "last_name": "Niedecker"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -58,6 +88,12 @@
                 "first_name": "William",
                 "last_name": "Bronk"
             },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -68,7 +104,13 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
-            "notes": "",
+            "imprint": "",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
+            "notes": "elizabeth",
             "featured": false
         },
         {
@@ -78,7 +120,13 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
-            "notes": "From 'Two poems to two prints' (done by Jacques Hnizdovsky)",
+            "imprint": "jlw",
+            "artwork": {
+                "src": "Hnizdovsky_w_57_1964_endymion_1024_180x.webp",
+                "alt": "Endymion, 1964, original Jacques Hnizdovsky woodcut"
+            },
+
+            "notes": "From <cite>Two Poems to Two Prints</cite> (1987). Prints by Jacque Hnizdovsky. Designed by Jerry Kelly and printed by Kelly Winterton Press.",
             "featured": false
         },
         {
@@ -88,6 +136,12 @@
                 "first_name": "August",
                 "last_name": "Derleth"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -98,6 +152,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -108,6 +168,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -118,6 +184,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -128,6 +200,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "From 'Two poems to two prints' (done by Jacques Hnizdovsky)",
             "featured": false
         },
@@ -138,6 +216,12 @@
                 "first_name": "James",
                 "last_name": "Laughlin"
             },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -148,6 +232,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": true
         },
@@ -158,6 +248,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -168,6 +264,12 @@
                 "first_name": "James L.",
                 "last_name": "Weil"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -178,16 +280,28 @@
                 "first_name": "Simon",
                 "last_name": "Perchik"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
         {
             "slug": "there-now-here",
-            "title": "there now{{class=right block stretched:here}}",
+            "title": "there now here",
             "author": {
                 "first_name": "Larry",
                 "last_name": "Eigner"
             },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -198,6 +312,12 @@
                 "first_name": "Felix",
                 "last_name": "Pollak"
                },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+
             "notes": "",
             "featured": false
         },
@@ -208,9 +328,30 @@
                 "first_name": "Gena",
                 "last_name": "Ford"
                },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "alt": ""
+            },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "with-sun-on",
+            "title": "With Sun On",
+            "author": {
+                "first_name": "John",
+                "last_name": "Perlman"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
             "notes": "",
             "featured": false
         }
+
 
 
     ]

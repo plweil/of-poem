@@ -58,12 +58,16 @@ class PoemController
         }
 
         $body = $this->poemRepository->loadPoemBody($slug);
+        $imprint = $poem['imprint'] ?? null;
+        $mark = getImprintMark($imprint);
         $next = $this->poemRepository->getNext($slug);
         $prev = $this->poemRepository->getPrevious($slug);
 
         View::render('poem-show', [
             'poem' => $poem,
             'body' => $body,
+            'imprint' => $imprint,
+            'mark' => $mark,
             'next' => $next,
             'prev' => $prev,
         ]);

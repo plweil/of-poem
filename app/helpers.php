@@ -88,3 +88,25 @@ function renderPoemText(string $text): string
         $text
     );
 }
+
+// helpers/imprints.php
+
+function getImprintMark(?string $imprint): ?array
+{
+    static $imprintMarks = null;
+
+    if ($imprintMarks === null) {
+        $imprintMarks = require __DIR__ . '/../config/imprints.php';
+    }
+
+    if (!$imprint) {
+        return null;
+    }
+
+    return $imprintMarks[$imprint] ?? null;
+}
+
+function renderAllowedInlineHtml(string $html): string
+{
+    return strip_tags($html, '<cite><em><strong><i><b>');
+}

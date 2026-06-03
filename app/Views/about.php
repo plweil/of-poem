@@ -18,7 +18,7 @@ require BASE_PATH . '/app/Views/partials/header.php';
 <h2>Artwork</h2>
   <p>The cover device (“Fool”) for <cite>Elizabeth</cite>, which also served as the publisher’s mark for The Elizabeth Press, was by Paul Lett.</p>
   <p>
-    The publisher’s mark for James L. Weil, Publisher was created by
+    The publisher’s mark for James L. Weil, Publisher was designed by
     <a href="https://hnizdovsky.gallery/">Jacques Hnizdovsky</a>.
   </p>
 </main>

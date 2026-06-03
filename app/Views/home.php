@@ -33,6 +33,24 @@ if ($poem): ?>
           <?= htmlspecialchars($poem['author']['first_name'] . ' ' . $poem['author']['last_name']) ?>
         </p>
       </div>
+      <?php if (!empty($mark)): ?>
+        <div class="poem-imprint-mark poem-imprint-mark--<?= htmlspecialchars($imprint) ?>">
+          <img
+              src="<?= htmlspecialchars($mark['src']) ?>"
+              alt="<?= htmlspecialchars($mark['alt']) ?>"
+              class="<?= htmlspecialchars($mark['class']) ?>"
+          >
+          <?php if ($mark === 'jlw'): ?>
+          James L. Weil, Publisher
+          <?php endif ?>
+        </div>
+      <?php endif; ?>
+
+
+<!--      <img src="/images/jlw-monogram.png" alt="Elizabeth Press publisher’s mark" class="jester-mark">-->
+
+
+
     </article>
   </main>
 

@@ -292,6 +292,10 @@ main .poem-body pre {
     line-height: 1.7;
 }
 
+main .endymion .poem-body pre{
+    font-family: Palatino, var(--poem-serif);
+}
+
 /*poem body special formatting rules*/
 .poem-body .poem-block {
     display: block;
@@ -528,4 +532,45 @@ p {
     .page-intro {
         margin-bottom: 3rem;
     }
+}
+
+/*.jester-mark {*/
+/*    !*width: 180px;*!*/
+/*    !*height: auto;*!*/
+
+
+/*    width: 10vw;*/
+/*    max-width: 160px;*/
+/*    min-width: 100px;*/
+/*    height: auto;*/
+/*}*/
+
+.poem-imprint-mark {
+    margin: 5rem auto 1rem;
+    text-align: center;
+}
+
+.poem-imprint-mark img {
+    display: inline-block;
+    height: auto;
+}
+
+.poem-imprint-mark--elizabeth img {
+    width: clamp(100px, 9vw, 120px);
+}
+
+.poem-imprint-mark--jlw img {
+    width: clamp(85px, 9vw, 100px);
+}
+
+.poem-artwork {
+    margin: 1rem auto;
+    /*text-align: center;*/
+}
+
+.poem-artwork img {
+    display: block;
+    max-width: min(100%, 420px);
+    height: auto;
+    margin: 0 0 0 -3px;
 }
