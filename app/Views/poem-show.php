@@ -9,6 +9,7 @@
  * } $poem
  *
  * @var string $body
+ * @var string $imprint
  */
 $is_subpage = true;
 $pageTitle =

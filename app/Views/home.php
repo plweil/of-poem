@@ -1,11 +1,14 @@
 <?php
+/** @var array $poem
+ * @var String $imprint
+ * */
 $pageTitle = 'Welcome and Featured Poem';
 $is_subpage = false;
 require BASE_PATH . '/app/Views/partials/head.php';
 require BASE_PATH . '/app/Views/partials/header.php';
 ?>
 
-<?php /** @var TYPE_NAME $poem */
+<?php
 if ($poem): ?>
   <main class="content">
     <!-- Introductory text -->
@@ -34,20 +37,17 @@ if ($poem): ?>
         </p>
       </div>
       <?php if (!empty($mark)): ?>
-        <div class="poem-imprint-mark poem-imprint-mark--<?= htmlspecialchars($imprint) ?>">
-          <img
-              src="<?= htmlspecialchars($mark['src']) ?>"
-              alt="<?= htmlspecialchars($mark['alt']) ?>"
-              class="<?= htmlspecialchars($mark['class']) ?>"
-          >
-          <?php if ($mark === 'jlw'): ?>
-          James L. Weil, Publisher
-          <?php endif ?>
-        </div>
-      <?php endif; ?>
+      <figure class="poem-imprint-mark poem-imprint-mark--<?= htmlspecialchars($imprint) ?>">
+        <img
+            src="<?= htmlspecialchars($mark['src']) ?>"
+            alt="<?= htmlspecialchars($mark['alt']) ?>"
+        >
+        <figcaption>
+          <?= htmlspecialchars($mark['label']) ?>
+        </figcaption>
+      </figure>
+<?php endif ?>
 
-
-<!--      <img src="/images/jlw-monogram.png" alt="Elizabeth Press publisher’s mark" class="jester-mark">-->
 
 
 
