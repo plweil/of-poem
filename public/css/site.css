@@ -316,7 +316,8 @@ main .endymion .poem-body pre{
 .poem-body .poem-stretched {
     letter-spacing: 0.2em;
 }
-poem-body .poem-indent5,
+.poem-body poem-indent2,
+.poem-body .poem-indent5,
 .poem-body .poem-indent7
 .poem-body .poem-indent10,
 .poem-body .poem-indent12,
@@ -332,6 +333,10 @@ poem-body .poem-indent5,
 .poem-body .poem-indent55,
 .poem-body .poem-indent60 {
     display: inline-block;
+}
+
+.poem-body .poem-indent2 {
+    margin-left: 2%;
 }
 
 .poem-body .poem-indent5 {

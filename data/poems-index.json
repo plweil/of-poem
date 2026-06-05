@@ -350,7 +350,71 @@
                 },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "mega-meta",
+            "title": "Mega- Meta-",
+            "author": {
+                "first_name": "William",
+                "last_name": "Bronk"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "the-gift",
+            "title": "The Gift",
+            "author": {
+                "first_name": "J. D.",
+                "last_name": "Whitney"
+               },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "From <cite>Tracks: poems 1966–1968</cite> (1969)",
+            "featured": false
+        },
+        {
+            "slug": "some-token-or",
+            "title": "some token or",
+            "author": {
+                "first_name": "Larry",
+                "last_name": "Eigner"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "le-fou",
+            "title": "Le Fou",
+            "author": {
+                "first_name": "Robert",
+                "last_name": "Creeley"
+               },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
         }
+
+
+
+
 
 
 
