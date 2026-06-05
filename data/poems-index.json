@@ -410,7 +410,23 @@
                 },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "silences",
+            "title": "Silences",
+            "author": {
+                "first_name": "Barriss",
+                "last_name": "Mills"
+               },
+            "imprint": "elizabeth",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
         }
+
 
 
 
