@@ -425,7 +425,55 @@
                 },
             "notes": "",
             "featured": false
+        },
+        {
+            "slug": "all-together-now",
+            "title": "All Together Now ",
+            "author": {
+                "first_name": "William",
+                "last_name": "Bronk"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "what-art-is",
+            "title": "What Art Is",
+            "author": {
+                "first_name": "William",
+                "last_name": "Bronk"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
+        },
+        {
+            "slug": "the-choice-of-words",
+            "title": "The Choice of Words",
+            "author": {
+                "first_name": "William",
+                "last_name": "Bronk"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
         }
+        
+        
+
 
 
 
