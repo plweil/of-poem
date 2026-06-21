@@ -470,9 +470,24 @@
                 },
             "notes": "",
             "featured": false
+        },{
+            "slug": "lines-and-smudges",
+            "title": "Lines & Smudges",
+            "author": {
+                "first_name": "Cid",
+                "last_name": "Corman"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "50 keepsake copies printed to celebrate in memoriam the 83 birthday of William Bronk, 17 February 2001",
+            "featured": false
         }
-        
-        
+
+
+
 
 
 
