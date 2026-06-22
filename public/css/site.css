@@ -309,6 +309,14 @@ main .endymion .poem-body pre{
     font-size: 0.85em;
 }
 
+.poem-body .poem-bold {
+    font-weight: 600;
+}
+
+.poem-body .poem-semibold {
+    font-weight: 500;
+}
+
 .poem-body .poem-larger {
     font-size: 1.15rem;
 }
@@ -316,7 +324,7 @@ main .endymion .poem-body pre{
 .poem-body .poem-stretched {
     letter-spacing: 0.2em;
 }
-.poem-body poem-indent2,
+.poem-body .poem-indent2,
 .poem-body .poem-indent5,
 .poem-body .poem-indent7
 .poem-body .poem-indent10,

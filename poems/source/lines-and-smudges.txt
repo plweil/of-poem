@@ -1,4 +1,4 @@
-1
+{{class=larger semibold:1}}
 They don’t mean
 anything —
 
@@ -6,26 +6,26 @@ They’re only
 words. Like us.
 
 
-2
+{{class=larger semibold:2}}
 Do we have to eat
 the shit — to get the
 idea of it?
 
 
-3
+{{class=larger semibold:3}}
 Music is
 a common
 fragrance. We
 all do stink.
 
 
-4
+{{class=larger semibold:4}}
 Where is the stone an
 animal ever buried
 another under?
 
 
-5 — IDEOGRAMS
+{{class=larger semibold:5}} — IDEOGRAMS
 Ideas
 registered
 in grams — it
@@ -35,7 +35,7 @@ characters
 aint. Weighs time.
 
 
-6
+{{class=larger semibold:6}}
 It’s us — all along
 There is no other story
 to be told — John Donne.
