@@ -484,7 +484,23 @@
                 },
             "notes": "50 keepsake copies printed to celebrate in memoriam the 83 birthday of William Bronk, 17 February 2001",
             "featured": false
+        },
+        {
+            "slug": "song-in-a-minor-key",
+            "title": "Song in a Minor Key",
+            "author": {
+                "first_name": "Felix",
+                "last_name": "Stefanile"
+               },
+            "imprint": "jlw",
+            "artwork": {
+                "src": "",
+                "label": ""
+                },
+            "notes": "",
+            "featured": false
         }
+        
 
 
 
